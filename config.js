@@ -30,7 +30,7 @@ function (Settings) {
      *
      */
 
-    elasticsearch: {server: "http://"+window.location.hostname+":9200", withCredentials: true},
+    elasticsearch: {server: "http://"+window.location.hostname+":80", withCredentials: false},
 
     /** @scratch /configuration/config.js/5
      *
